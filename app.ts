@@ -1,4 +1,6 @@
 let hello:string = 'hello world';
 
-console.log(hello);
+let heads = document.createElement('h1')
+heads.textContent = hello;
 
+document.body.appendChild(heads);

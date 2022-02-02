@@ -1,2 +1,4 @@
 var hello = 'hello world';
-console.log(hello);
+var heads = document.createElement('h1');
+heads.textContent = hello;
+document.body.appendChild(heads);
